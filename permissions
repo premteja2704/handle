@@ -17,11 +17,11 @@
 		
 		driver.get("https://www.spicejet.com/");
 		
-<<<<<<< HEAD
+
  Actions action=new Actions(driver);
  
  action.moveToElement(driver.findElement(By.linkText("****"))).build().perform();
-=======
+
  Thread.sleep(5000);
  driver.findElement(By.limkText('*******')).click();
->>>>>>> branch 'main' of https://github.com/premteja2704/handle.git
+
